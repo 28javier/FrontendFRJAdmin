@@ -8,6 +8,7 @@ import { CategoriaComponent } from './categoria/categoria.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { ProductoComponent } from './producto/producto.component';
 import { PacienteComponent } from './paciente/paciente.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,8 @@ const routes: Routes = [
      {path: 'usuario', component: UsuarioComponent},
      {path: 'producto', component: ProductoComponent},
      {path: 'paciente', component: PacienteComponent},
+     {path: 'account-settings', component: AccountSettingsComponent},
+
     ]
    },
 ];
